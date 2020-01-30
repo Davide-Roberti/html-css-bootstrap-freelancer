@@ -122,11 +122,30 @@ h1 {
 
 .contact {
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 80px;
     color: #2d3e50;
 }
 
 .contact .linea {
     border: 2px solid #2d3e50;
     width: 100px;
+}
+
+.contact .divisore {
+    padding-bottom: 60px;
+}
+
+.contact input {
+    font-size: 25px;
+    border: none;
+    color: #6f747a;
+}
+
+.contact button {
+    margin-top: 60px;
+    color: white;
+    background-color: #1bbc9b;
+    border: none;
+    font-size: 20px;
+    padding: 15px 23px;
 }
