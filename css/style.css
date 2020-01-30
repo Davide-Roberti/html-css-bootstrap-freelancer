@@ -48,7 +48,6 @@ h1 {
 
 .jumbotron h4 {
     font-size: 25px;
-    padding-top: 20px;
 }
 
 .jumbotron .linea {
@@ -71,14 +70,15 @@ h1 {
 
 .portfolio {
     color: #2d3e50;
+    padding-bottom: 50px;
 }
 
-.portfolio h2 {
+ h2 {
     font-size: 45px;
     font-weight: 600;
 }
 
-.portfolio .divisore {
+.divisore {
     padding-bottom: 30px;
     padding-top: 5px;
 }
@@ -90,4 +90,30 @@ h1 {
 
 .portfolio .immagine {
     padding-bottom: 30px;
+}
+
+/* stilizzazione about */
+
+.about {
+    background-color: #1bbc9b;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    color: white;
+}
+
+.about .linea {
+    border: 2px solid white;
+    width: 100px;
+}
+
+.about p {
+    font-size: 20px;
+    padding-bottom: 25px;
+}
+
+.about button {
+    background-color: #1bbc9b;
+    border: 2px solid white;
+    font-size: 23px;
+    font-weight: lighter;
 }
