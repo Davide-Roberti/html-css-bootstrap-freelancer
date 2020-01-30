@@ -32,6 +32,7 @@ header ul a {
     background-color: #1bbc9b;
     padding-top: 100px;
     color: white;
+    padding-bottom: 80px;
 }
 
 .jumbotron img {
@@ -43,5 +44,22 @@ h1 {
 }
 
 .jumbotron h4 {
-    font-size: 20px;
+    font-size: 25px;
+    padding-top: 20px;
+}
+
+.jumbotron .linea {
+    border: 2px solid white;
+    width: 100px;
+}
+
+.divisore div{
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    transform: translateY(-8px);
+}
+
+.divisore i {
+    font-size: 30px;
 }
