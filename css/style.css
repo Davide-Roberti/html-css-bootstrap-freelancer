@@ -1,0 +1,47 @@
+/* stilizzazione header */
+
+header {
+    background-color: #2d3e50;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    line-height: 72px;
+}
+
+header a {
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+header .logo {
+    font-size: 25px;
+}
+
+header ul a {
+    padding-left: 10px;
+    padding-right: 15px;
+}
+
+/* stilizzazione jumbotron */
+
+.jumbotron {
+    background-color: #1bbc9b;
+    padding-top: 100px;
+    color: white;
+}
+
+.jumbotron img {
+    width: 250px;
+}
+
+h1 {
+    font-weight: 600;
+}
+
+.jumbotron h4 {
+    font-size: 20px;
+}
