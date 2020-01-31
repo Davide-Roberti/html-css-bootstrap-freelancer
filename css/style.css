@@ -8,6 +8,7 @@ header {
     right: 0;
     z-index: 999;
     line-height: 72px;
+    height: 72px;
 }
 
 .container {
@@ -64,6 +65,7 @@ header button:hover {
     padding-top: 180px;
     color: white;
     padding-bottom: 80px;
+    margin-bottom: 0;
 }
 
 .jumbotron img {
@@ -99,6 +101,7 @@ h1 {
 .portfolio {
     color: #2d3e50;
     padding-bottom: 50px;
+    padding-top: 50px;
 }
 
  h2 {
@@ -135,7 +138,7 @@ h1 {
     background-color: rgba(26,188,156,.9)
 }
 
-.portfolio i {
+.portfolio .overlay i {
     position: absolute;
     top: 50%;
     left: 50%;
