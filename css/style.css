@@ -61,7 +61,7 @@ header button:hover {
 
 .jumbotron {
     background-color: #1bbc9b;
-    padding-top: 100px;
+    padding-top: 180px;
     color: white;
     padding-bottom: 80px;
 }
@@ -118,6 +118,35 @@ h1 {
 
 .portfolio .immagine {
     padding-bottom: 30px;
+    position: relative;
+}
+
+.overlay {
+    background-color: rgba(26,188,156,.0);
+    position: absolute;
+    top: 0;
+    left: 15px;
+    bottom: 30px;
+    right: 15px;
+    border-radius: 6px;
+}
+
+.overlay:hover {
+    background-color: rgba(26,188,156,.9)
+}
+
+.portfolio i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 70px;
+    display: none;
+}
+
+.overlay:hover i {
+    display: block;
 }
 
 /* stilizzazione about */
