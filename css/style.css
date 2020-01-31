@@ -199,7 +199,16 @@ h1 {
 .contact input {
     font-size: 25px;
     border: none;
-    color: #6f747a;
+}
+
+.contact textarea {
+    font-size: 25px;
+    border: none;
+}
+
+textarea::-webkit-input-placeholder,
+textarea::placeholder {
+    color: #8e959b;
 }
 
 .contact button {
